@@ -1,0 +1,21 @@
+/* Світла тема */
+:root {
+    --main-color: #FFFFFF;
+    --second-color: #F5F5F5;
+    --accent-color: #2498EE;
+    --text-color: #333333;
+    --disable-color: #999999;
+    --dark-blue-color: #0a2941;
+    --theme-toggle-button-color: #F5B041;
+}
+
+/* Темна тема */
+.dark-theme {
+    --main-color: #1E1E1E;
+    --second-color: #2E2E2E;
+    --accent-color: #2498EE;
+    --text-color: #E0E0E0;
+    --disable-color: #7D7D7D;
+    --dark-blue-color: #0a2941;
+    --theme-toggle-button-color: #3a3a3a;
+}

@@ -1,0 +1,196 @@
+{
+  "header": {
+    "brand": "Meganom Polygraph",
+    "hero": "Home",
+    "services": "Our services",
+    "portfolio": "Portfolio",
+    "management": "Management",
+    "about": "About Us",
+    "delivery": "Delivery",
+    "requests": "Order"
+  },
+
+  "hero": {
+    "header": "Meganom Polygraph",
+    "services": "Laminated paper bags ⋅ Bags with logo ⋅ Kraft bags ⋅ Gift bags ⋅ Bags with embossing and heat embossing ⋅ Bags made of designer paper ⋅ Bags with selective UV varnish ⋅ Branded document folders"
+  },
+
+  "services": {
+    "header": "Our services",
+
+    "service-first-header": "Laminated paper bags",
+    "service-first-short-description": "Custom-made laminated coated paper bags with rope handles",
+    "service-first-long-description": "Bags made of coated paper, density 150 g/m², 170 g/m², 200 g/m², 250 g/m², covered with glossy or matte film (matte or glossy lamination). Printing is offset. Bottom and handles are reinforced with 400 g/m² cardboard. Handles: polypropylene or polyester cord with filling, diameter 5 mm.",
+
+    "service-second-header": "Logo bags",
+    "service-second-short-description": "We put your logo or any image on the promotional bags.",
+    "service-second-long-description": "This packaging is ideal for advertising. You can put your logo or any image on the bags. Branded paper bags work to improve the company's image, increase brand awareness, and show that the company cares about its customers.",
+
+    "service-third-header": "Cardboard bags",
+    "service-third-short-description": "Custom-made cardboard bags can withstand a lot of weight and have an elegant look.",
+    "service-third-long-description": "We recommend this type of packaging to our customers for heavy products. The cardboard packaging is strong and allows you to carry outerwear, bottles, etc. in it and be sure that it will hold the weight. At the same time, the printing on cellulose coated cardboard is of high quality.",
+
+    "service-fourth-header": "Kraft bags",
+    "service-fourth-short-description": "Kraft bags are eco-friendly packaging at a budget price.",
+    "service-fourth-long-description": "Branded kraft bags speak of the awareness of the company's management, distinguish you from competitors and convey your brand values. Kraft bags are environmentally friendly packaging, paper density 80 g/m², 100 g/m², 110 g/m², 120 g/m², 170 g/m², brown or white, with twisted handles or a Ø 5 mm cord.",
+
+    "service-fifth-header": "Gift bags",
+    "service-fifth-short-description": "We are Ukrainian manufacturers of gift packages for all holidays.",
+    "service-fifth-long-description": "This is the business card of your gift. Bright or restrained design will create a magical mood. We have a large selection of sizes and layouts, for any gift and for any holiday or meeting. You can find out the entire range of products from our managers.",
+
+    "service-sixth-header": "Branded document folders",
+    "service-sixth-short-description": "Branded folders with embossing or printing are an important element of the company's style.",
+    "service-sixth-long-description": "Necessary for exchanging documents with clients, participating in seminars and conferences. A branded folder is used as an element of advertising; it can be marked with a QR code of the company, information about company services or promotions. A branded folder is an important element of a company's style.",
+
+    "service-seventh-header": "Designer paper bags",
+    "service-seventh-short-description": "Bags made of designer paper or designer cardboard are made by die-cutting.",
+    "service-seventh-long-description": "They differ significantly from standard packaging. They are durable and eye-catching, designed to emphasize the individuality of your company. When choosing designer paper for a package, you should pay attention to color, texture and density. The minimum print run is 50 pieces.",
+
+    "service-eighth-header": "Packages with selective UV varnish",
+    "service-eighth-short-description": "A package with UV varnish will favorably emphasize your company logo.",
+    "service-eighth-long-description": "Stylish and creative, it attracts attention and is remembered for a long time. A varnish is applied to the matte surface, which becomes hard under the influence of ultraviolet light and acquires a glossy surface. Selective UV varnish is applied to those elements in the design that need to be emphasized or highlighted. Selective UV varnish on dark matte surfaces is very distinctive.",
+
+    "service-ninth-header": "Packages with embossing and heating.",
+    "service-ninth-short-description": "Embossing and embossing on the bags adds a unique look.",
+    "service-ninth-long-description": "Add luxury and elegance to your products. Despite their affordability, they look expensive with a spectacular design. Foil stamping of a logo or text on the surface of a package is done with the help of special foil and heating dies. Embossing is the process of reproducing a relief image on the surface of a material (paper or cardboard) using a stamp and a counterstamp. The minimum run is 100 pieces."
+  },
+
+  "portfolio": {
+    "header": "Portfolio",
+    "category-first": "All",
+    "category-second": "Folders",
+    "category-third": "Gift",
+    "category-fourth": "Logo Bags",
+    "fourth-all": "All packages with logo",
+    "fourth-lam": "Paper laminated bags",
+    "fourth-craft": "Craft bags",
+    "fourth-cardboard": "Cardboard bags",
+    "fourth-tys": "Packages with embossing and heating",
+    "fourth-design": "Design paper bags",
+    "fourth-uf": "Packages with selective UV varnish",
+
+    "description-1": "<h3>Package description on photo</h3><p><b>Size:</b> 24*36*9</p><p><b>Material:</b> kraft brown 170g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.<br/>The package is cut out.</p>",
+    "description-2": "<h3>Package description on photo</h3><p><b>Size:</b> 25*35*9, 40*33*20</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>Selective UV varnish<br/>Eyelets<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-3": "<h3>Package description on photo</h3><p><b>Size:</b> 48*32*15, 30*24*10</p><p><b>Material:</b> cellulose cardboard 210g.</p><p><b>Print:</b> 5+0 (CMYK + Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> rep tape glued in</p><p>Selective UV varnish<br/>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-4": "<h3>Package description on photo</h3><p><b>Size:</b> 14*39*13</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-5": "<h3>Package description on photo</h3><p><b>Size:</b> 25*35*8, 32*40*10</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-6": "<h3>Package description on photo</h3><p><b>Size:</b> 25*36*8, 36*25*20</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> satin ribbon tied</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-7": "<h3>Package description on photo</h3><p><b>Size:</b> 25*36*9, 22*22*12</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-8": "<h3>Package description on photo</h3><p><b>Size:</b> 30*24*10, 30*24*10</p><p><b>Material:</b> cardboard 170g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-9": "<h3>Package description on photo</h3><p><b>Size:</b> 42*32*10, 24*25*10</p><p><b>Material:</b> designer paper 220g.</p><p><b>Embossing:</b> gold foil</p><p><b>Handles:</b> rep tape glued in</p><p>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-10": "<h3>Package description on photo</h3><p><b>Size:</b> 22*14*12</p><p><b>Material:</b> designer paper 170g.</p><p><b>Embossing:</b> gold foil</p><p><b>Handles:</b> rep tape glued in</p><p>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-11": "<h3>Package description on photo</h3><p><b>Size:</b> 24*36*9</p><p><b>Material:</b> cardboard 210g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-12": "<h3>Package description on photo</h3><p><b>Size:</b> 55*40*15, 32*42*12</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-13": "<h3>Package description on photo</h3><p><b>Size:</b> 40*30*15</p><p><b>Material:</b> offset 170g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-14": "<h3>Package description on photo</h3><p><b>Size:</b> 25*35*9</p><p><b>Material:</b> chalked paper 250g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-15": "<h3>Package description on photo</h3><p><b>Size:</b> 25*32*8</p><p><b>Material:</b> chalked paper 250g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>Eyelets<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-16": "<h3>Package description on photo</h3><p><b>Size:</b> 27*30*15</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-17": "<h3>Package description on photo</h3><p><b>Size:</b> 40*37*11</p><p><b>Material:</b> cardboard 210g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-18": "<h3>Package description on photo</h3><p><b>Size:</b> 20*30*7</p><p><b>Material:</b> chalked paper 250g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord with tip</p><p>Eyelets<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-19": "<h3>Package description on photo</h3><p><b>Size:</b> 42*30*14</p><p><b>Material:</b> cardboard 210g.</p><p><b>Print:</b> 4+0 (CMYC)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-20": "<h3>Package description on photo</h3><p><b>Size:</b> 32*40*12</p><p><b>Material:</b> cardboard 210g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>Eyelets<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-21": "<h3>Package description on photo</h3><p><b>Size:</b> 25*36*9</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-22": "<h3>Package description on photo</h3><p><b>Size:</b> 30*40*10</p><p><b>Material:</b> cardboard 210g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The package is cut out<br/> The bottom and handles are reinforced with cardboard.</p>",
+    "description-23": "<h3>Package description on photo</h3><p><b>Size:</b> 35*25*9</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-24": "<h3>Package description on photo</h3><p><b>Size:</b> 25*35*9</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-25": "<h3>Package description on photo</h3><p><b>Size:</b> 25*35*9</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-26": "<h3>Package description on photo</h3><p><b>Size:</b> 40*30*10</p><p><b>Material:</b> kraft brown 120g.</p><p><b>Print:</b> 1+0 (CMYK)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-27": "<h3>Package description on photo</h3><p><b>Size:</b> 25*36*9</p><p><b>Material:</b> cardboard 210g.</p><p><b>Print:</b> 1+0 (Фон - срібло)</p><p><b>Lamination:</b> matte</p><p><b>Embossing:</b> blue foil</p><p><b>Handles:</b> cord</p><p>Eyelets<br/>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-28": "<h3>Package description on photo</h3><p><b>Size:</b> 14*21*7</p><p><b>Material:</b> designer paper 170g.</p><p><b>Embossing:</b> silver foil + convection</p><p><b>Handles:</b> satin ribbon glued in</p><p>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-29": "<h3>Package description on photo</h3><p><b>Size:</b> 20*30*10</p><p><b>Material:</b> chalked paper 170g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>Eyelets silver<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-30": "<h3>Package description on photo</h3><p><b>Size:</b> 25*36*9</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-31": "<h3>Package description on photo</h3><p><b>Size:</b> 22*32*12</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-32": "<h3>Package description on photo</h3><p><b>Size:</b> 25*32*8</p><p><b>Material:</b> kraft white 110g.</p><p><b>Print:</b> 1+0 (CMYK)</p><p><b>Handles:</b> paper twists</p><p>The bottom is reinforced with cardboard.</p>",
+    "description-33": "<h3>Folder description on photo</h3><p><b>Size:</b> А4</p><p><b>Material:</b> cardboard 270g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p>Self-assembled.<br/>With business card flap</p>",
+    "description-34": "<h3>Package description on photo</h3><p><b>Size:</b> 40*35*15</p><p><b>Material:</b> brown striped kraft 120g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-35": "<h3>Package description on photo</h3><p><b>Size:</b> 30*40*10</p><p><b>Material:</b> kraft white 120g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Handles:</b> paper twists</p><p>The bottom is reinforced with cardboard.</p>",
+    "description-36": "<h3>Package description on photo</h3><p><b>Size:</b> 34*30*14</p><p><b>Material:</b> kraft brown 100g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-37": "<h3>Package description on photo</h3><p><b>Size:</b> 20*32*10</p><p><b>Material:</b> kraft brown 120g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> paper twists</p><p>The bottom is reinforced with cardboard.</p>",
+    "description-38": "<h3>Description of the package named \"Words\"</h3><p><b>Size:</b> 22*22*8</p><p><b>Material:</b> kraft brown 100g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-39": "<h3>Description of the package named \"Towel\"</h3><p><b>Size:</b> 14*21*7</p><p><b>Material:</b> kraft brown 100g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-40": "<h3>Package description on photo</h3><p><b>Size:</b> 40*33*20</p><p><b>Material:</b> cardboard 200g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>Block - gold<br/>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-41": "<h3>Package description on photo</h3><p><b>Size:</b> 20*30*10</p><p><b>Material:</b> kraft brown 70g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-42": "<h3>Package description on photo</h3><p><b>Size:</b> 30*40*10</p><p><b>Material:</b> blue ephalin 125g.</p><p><b>Embossing:</b> gold foil</p><p><b>Handles:</b> cord</p><p>Eyelets<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-43": "<h3>Folder description on photo</h3><p><b>Size:</b> А4</p><p><b>Material:</b> cardboard 270g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p>Self-assembled.<br/>With business card flap</p>",
+    "description-44": "<h3>Package description on photo</h3><p><b>Size:</b> 25*35*9</p><p><b>Material:</b> imitlin 125g.</p><p><b>Print:</b> 1+0 (Bronze)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-45": "<h3>Description of the package with the name \"Ukraine is mine\"</h3><p><b>Size:</b> 25*32*8</p><p><b>Material:</b> chalked paper 170g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-46": "<h3>Package description on photo</h3><p><b>Size:</b> 32*27*21</p><p><b>Material:</b> brown striped kraft 120g.</p><p><b>Handles:</b> cord</p><p>Business card made of designer paper 280g.<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-47": "<h3>Description of the package with the name \"Rose mail\"</h3><p><b>Size:</b> 25*32*8</p><p><b>Material:</b> chalked paper 170g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-48": "<h3>Package description on photo</h3><p><b>Size:</b> 22*23*12</p><p><b>Material:</b> cardboard 200g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+    "description-49": "<h3>Description of the package named \"Holiday\"</h3><p><b>Size:</b> 14*21*7</p><p><b>Material:</b> kraft brown 100g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-50": "<h3>Package description on photo</h3><p><b>Size:</b> 28*35*10</p><p><b>Material:</b> kraft white 120g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Handles:</b> paper twists</p><p>The bottom is reinforced with cardboard.</p>",
+    "description-51": "<h3>Folder description on photo</h3><p><b>Size:</b> А4</p><p><b>Material:</b> cardboard 270g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p>Self-assembled.<br/>With business card flap</p>",
+    "description-52": "<h3>Package description on photo</h3><p><b>Size:</b> 25*32*8</p><p><b>Material:</b> ephaline flax 125g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-53": "<h3>Package description on photo</h3><p><b>Size:</b> 25*35*4</p><p><b>Material:</b> white striped kraft 120g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-54": "<h3>Package description on photo</h3><p><b>Size:</b> 40*33*20</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-55": "<h3>Package description on photo</h3><p><b>Size:</b> 24*35*9</p><p><b>Material:</b> white striped kraft 120g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-56": "<h3>Package description on photo</h3><p><b>Size:</b> 26*22*12</p><p><b>Material:</b> kraft brown 120g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-57": "<h3>Package description on photo</h3><p><b>Size:</b> 25*35*9</p><p><b>Material:</b> kraft brown 120g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-58": "<h3>Folder description on photo</h3><p><b>Size:</b> А4</p><p><b>Material:</b> cardboard 270g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p>Self-assembled.<br/>With business card flap</p>",
+    "description-59": "<h3>Folder description on photo</h3><p><b>Size:</b> А4</p><p><b>Material:</b> design cardboard 320g.</p><p><b>Embossing:</b> gold foil</p>",
+    "description-60": "<h3>Description of the package named \"Peony\"</h3><p><b>Size:</b> 25*32*8</p><p><b>Material:</b> chalked paper 170g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-61": "<h3>Description of the envelope in the photo</h3><p><b>Size:</b> 21*30 valve 7см., 32*38*5 valve 8см.</p><p><b>Material:</b> cardboard 210g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Lamination:</b> matte</p>",
+    "description-62": "<h3>Package description on photo</h3><p><b>Size:</b> 24*35*9</p><p><b>Material:</b> kraft white 110g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-63": "<h3>Package description on photo</h3><p><b>Size:</b> 25*35*9</p><p><b>Material:</b> ephaline 125g.</p><p><b>Print:</b> 1+0 (Black)</p><p><b>Embossing:</b> bronze on the back of the package + convection</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+    "description-64": "<h3>Folder description on photo</h3><p><b>Size:</b> А4</p><p><b>Material:</b> cardboard 270g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Embossing:</b> gold foil</p><p>Self-assembled.<br/>With business card flap</p>",
+    "description-65": "<h3>Package description on photo</h3><p><b>Size:</b> 32*25*10</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>"
+  },
+
+  "management": {
+    "header": "Management",
+    "name-first": "Irina",
+    "name-second": "Tatiana",
+    "position": "Manager"
+  },
+
+  "about": {
+    "header": "About Us",
+    "about-paragraph-first": "Since our founding in 2000, we have chosen a development vector that we have been successfully following: the paper and cardboard bags we produce should be of the highest possible quality. We do not manufacture bags at the lowest prices - we make quality products at a competitive price.",
+    "about-paragraph-second": "With our own production facilities with modern equipment and quality control at all stages of production, as well as established, reliable relationships with Ukrainian and foreign suppliers, we can guarantee our customers favorable terms of cooperation and partnerships for many years.",
+    "about-paragraph-third": "Meganom Polygraph offers you a wide range of high-quality paper and cardboard bags that are ideal for a variety of purposes, whether it is product packaging, promotional products or corporate gifts. Our products are not only of high quality, but also have stylish designs that attract attention and emphasize your brand.",
+    "about-paragraph-fourth": "The main difference between our company and its competitors is that today the products we manufacture have the best price/quality ratio on the Ukrainian market. Many clients and our regular customers have already appreciated this and other advantages."
+  },
+
+  "delivery": {
+    "header": "Delivery",
+
+    "kyiv": "city Kyiv:",
+    "kyiv-paragraph-first": "Delivery of products is discussed individually with the manager.",
+    "kyiv-paragraph-second": "Delivery time is from 10:00 to 17:00 on working days.",
+
+    "ukraine": "Ukraine:",
+    "ukraine-paragraph-first": "Delivery of products to other cities and regions of Ukraine is carried out by Nova Poshta. The cost of delivery is calculated individually according to the carrier's tariffs, depending on the weight, dimensions of the shipment and the region of destination. The customer pays for delivery upon receipt of the goods.",
+    "ukraine-paragraph-second": "Please read the delivery terms and conditions on the carrier's website:  <a href=\"https://novaposhta.ua/\" target=\"_blank\"> \"Нова Пошта\" </a>"
+  },
+
+  "requests": {
+    "header": "Contact Us",
+
+    "name-label": "Name",
+    "name-placeholder": "Name",
+    "name-error": "Field is required",
+
+    "contact-error": "Please provide at least one contact",
+
+    "phone-label": "Phone",
+    "phone-placeholder": "Phone",
+    "phone-error": "Invalid number format",
+
+    "mail-label": "Email",
+    "mail-placeholder": "E-mail",
+    "mail-error": "Invalid email format",
+
+    "massage-label": "Leave a message",
+    "massage-placeholder": "Specify the package size, material, printing and circulation",
+    "massage-error": "Field is required",
+
+    "button": "Send message",
+    "success": "Message sent :)",
+    "error": "Sorry... there seems to be an error"
+  },
+
+  "footer": {
+    "phone": "Phone:",
+    "mail": "Email:"
+  }
+}

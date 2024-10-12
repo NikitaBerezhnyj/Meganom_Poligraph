@@ -1,0 +1,49 @@
+@import url('../Colors.css');
+
+.footer-wrap {
+    width: 100vw;
+    margin-top: 96px;
+    background-color: var(--accent-color);
+}
+
+.footer {
+    height: auto;
+    padding: 24px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p,
+.footer a {
+    color: var(--main-color);
+}
+
+.footer p:last-child {
+    align-self: flex-end;
+}
+
+@media (max-width: 720px) {
+    .text-center {
+        align-items: center;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        overflow-x: auto;
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .footer p:last-child {
+        align-self: flex-start;
+    }
+}

@@ -1,0 +1,75 @@
+@import url('../Colors.css');
+
+.hero-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../../public/img/hero-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text {
+    width: 75%;
+}
+
+.hero-text h1 {
+    color: var(--dark-blue-color);
+    text-shadow: var(--main-color) 1px 0 10px;
+    font-size: 3em;
+}
+
+.hero-text p {
+    color: var(--dark-blue-color);
+    text-shadow: var(--main-color) 1px 0 10px;
+    font-size: 1.5em;
+}
+
+.hero-text a {
+    color: var(--dark-blue-color);
+    text-shadow: var(--main-color) 1px 0 10px;
+    font-size: 1em;
+}
+
+@media (max-width: 800px) {
+    .hero-text h1 {
+        font-size: 2.5em;
+    }
+
+    .hero-text p {
+        font-size: 1.25em;
+    }
+
+    .hero-text a {
+        font-size: 0.75em;
+    }
+}
+
+@media (max-width: 420px) {
+    .hero-container {
+        padding: 0;
+        padding-top: 20%;
+        height: 120vh;
+    }
+
+    .hero-text h1 {
+        font-size: 2.25em;
+    }
+
+    .hero-text p {
+        font-size: 1em;
+    }
+
+    .hero-text a {
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,12 @@
+@import url("./Components/Colors.css");
+
+* {
+  font-family: "Roboto Slab", serif;
+  font-size: 1rem;
+}
+
+.App {
+  text-align: start;
+  color: var(--text-color);
+  background-color: var(--main-color);
+}

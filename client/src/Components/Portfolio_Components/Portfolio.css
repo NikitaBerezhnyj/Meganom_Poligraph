@@ -1,0 +1,196 @@
+@import url('../Colors.css');
+
+pre {
+    margin: 0;
+    text-align: start;
+}
+
+.container-wrap {
+    padding: 0;
+}
+
+.text-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    transition: all .3s ease;
+}
+
+.select-button {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    background-color: var(--main-color);
+}
+
+.select-button:hover,
+.select-button:active,
+.select-button:focus {
+    color: var(--main-color);
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.select-button.active {
+    color: var(--main-color);
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.dropdown-toggle {
+    color: var(--accent-color);
+    background-color: var(--main-color);
+    border-color: var(--accent-color);
+}
+
+.dropdown-toggle:hover,
+.select-button:active,
+.select-button:focus {
+    color: var(--main-color);
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.dropdown-toggle.active {
+    color: var(--main-color);
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.portfolio {
+    column-count: 3;
+    column-width: 33%;
+    padding: 0 12px;
+    transition: all .5s ease;
+}
+
+.portfolio .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+.portfolio .pics:hover {
+    filter: opacity(0.8);
+}
+
+.model {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1000;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+.model.open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.model-wrap {
+    padding: 0;
+    width: 75vw;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--main-color);
+    border-radius: 25px;
+}
+
+.model-item {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.model-item img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.model-description {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: var(--text-color);
+}
+
+.model button {
+    width: 5%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    padding: 5px;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+@media (max-width: 991px) {
+    .portfolio {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 720px) {
+    .text-center {
+        padding: 15px 0;
+        overflow-x: scroll;
+        overflow-y: visible;
+    }
+
+    .model-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .model-item {
+        height: 45%;
+    }
+
+    .model-img {
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .text-center {
+        justify-content: start;
+        transition: all .3s ease;
+    }
+
+    .text-center.show-dropdown {
+        height: 300px;
+        align-items: start;
+        transition: all .3s ease;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .portfolio {
+        column-count: 1;
+        column-width: 100%;
+    }
+}
