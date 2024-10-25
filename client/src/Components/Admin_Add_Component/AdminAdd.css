@@ -1,0 +1,97 @@
+@import url("../Colors.css");
+
+.admin-add-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.admin-add-modal-content {
+    background-color: var(--main-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    max-width: 600px;
+    width: 90%;
+    max-height: 650px;
+    height: 90%;
+}
+
+.admin-add-modal-content h1 {
+    text-align: center;
+    color: var(--text-color);
+}
+
+.admin-add-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.admin-add-header label {
+    font-weight: 500;
+    color: var(--text-color);
+    margin-right: 8px;
+}
+
+.admin-add-input input,
+.admin-add-input textarea,
+.admin-add-input select {
+    width: 100%;
+    overflow-y: scroll;
+    margin-bottom: 12px;
+    border: 1px solid var(--disable-color);
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.admin-add-server-error-message {
+    padding: 8px 4px;
+    width: 100%;
+    text-align: center;
+    color: var(--text-color);
+    border-radius: 8px;
+    background-color: red;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    cursor: default;
+    pointer-events: none;
+}
+
+.admin-add-server-error-message-show {
+    opacity: 1;
+    cursor: auto;
+}
+
+.admin-add-server-error-message svg {
+    margin-right: 4px;
+}
+
+.admin-add-modal-actions {
+    gap: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-add-modal-actions button {
+    width: 50%;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    border-radius: 4px;
+    cursor: pointer;
+}

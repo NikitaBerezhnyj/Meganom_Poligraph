@@ -1,0 +1,33 @@
+@import url("./Components/Standard-Component-style.css");
+
+* {
+  scroll-behavior: smooth;
+  scroll-margin-top: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: var(--text-color);
+  background-color: var(--main-color);
+}
+
+pre {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: var(--text-color);
+}
+
+code {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+::selection {
+  color: var(--text-color);
+  background: var(--accent-color);
+}

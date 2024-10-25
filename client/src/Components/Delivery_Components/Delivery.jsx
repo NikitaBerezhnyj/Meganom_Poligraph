@@ -1,3 +1,4 @@
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -17,12 +18,12 @@ export default function Delivery() {
           </p>
           <p
             dangerouslySetInnerHTML={{
-              __html: t("delivery.kyiv-paragraph-first"),
+              __html: t("delivery.kyiv-paragraph-first")
             }}
           />
           <p
             dangerouslySetInnerHTML={{
-              __html: t("delivery.kyiv-paragraph-second"),
+              __html: t("delivery.kyiv-paragraph-second")
             }}
           />
         </Col>
@@ -32,12 +33,12 @@ export default function Delivery() {
           </p>
           <p
             dangerouslySetInnerHTML={{
-              __html: t("delivery.ukraine-paragraph-first"),
+              __html: t("delivery.ukraine-paragraph-first")
             }}
           />
           <p
             dangerouslySetInnerHTML={{
-              __html: t("delivery.ukraine-paragraph-second"),
+              __html: t("delivery.ukraine-paragraph-second")
             }}
           />
         </Col>

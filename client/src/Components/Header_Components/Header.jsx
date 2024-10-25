@@ -33,13 +33,12 @@ export default function Header() {
 
     // Зміна мови
     i18n.changeLanguage(defaultLang);
-    localStorage.setItem("language", defaultLang);
   }, [i18n]);
 
   const toggleTheme = () => {
     setThemeToggleAnimating(true);
     setTimeout(() => {
-      setIsLightTheme((prevTheme) => !prevTheme);
+      setIsLightTheme(prevTheme => !prevTheme);
       setThemeToggleAnimating(false);
     }, 400);
   };
@@ -49,10 +48,9 @@ export default function Header() {
     document.documentElement.classList.toggle("dark-theme", !isLightTheme);
   }, [isLightTheme]);
 
-  const handleLanguageChange = (event) => {
+  const handleLanguageChange = event => {
     const lang = event.target.value;
     i18n.changeLanguage(lang);
-    localStorage.setItem("language", lang);
   };
 
   useEffect(() => {
@@ -70,7 +68,7 @@ export default function Header() {
       "management",
       "about",
       "delivery",
-      "requests",
+      "requests"
     ];
     let foundActiveSection = "";
     for (const section of sections) {
@@ -86,7 +84,7 @@ export default function Header() {
     setActiveSection(foundActiveSection);
   };
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = sectionId => {
     const element = document.getElementById(sectionId);
     if (element) {
       let position = element.getBoundingClientRect();
@@ -94,7 +92,7 @@ export default function Header() {
     }
   };
 
-  const handleNavLinkClick = (sectionId) => {
+  const handleNavLinkClick = sectionId => {
     scrollToSection(sectionId);
     setActiveSection(sectionId);
   };
@@ -123,8 +121,8 @@ export default function Header() {
               "management",
               "about",
               "delivery",
-              "requests",
-            ].map((sectionId) => (
+              "requests"
+            ].map(sectionId => (
               <Nav.Link
                 key={sectionId}
                 className={
@@ -139,7 +137,7 @@ export default function Header() {
             <Nav className="mr-2 change-lang-div">
               <select
                 onChange={handleLanguageChange}
-                defaultValue={localStorage.getItem("language")}
+                defaultValue={i18n.language}
               >
                 <option value="ua">Українська</option>
                 <option value="ru">Русский</option>

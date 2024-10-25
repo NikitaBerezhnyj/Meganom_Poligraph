@@ -1,3 +1,4 @@
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import "../Standard-Component-style.css";
@@ -18,7 +19,13 @@ export default function Management() {
           </div>
           <div className="manager-card-text">
             <h3>{t("management.name-first")}</h3>
-            <p>{t("management.position")}</p>
+            <p className="manager-card-text-position">
+              {t("management.position")}
+            </p>
+            <p>
+              {t("management.phone")}
+              <a href="tel:+380992340083">+380992340083</a>
+            </p>
           </div>
           <div className="contact-container mar-24">
             <span className="messenger-logos">
@@ -28,7 +35,11 @@ export default function Management() {
               <a href="viber://chat?number=0992340083">
                 <img src="/img/messenger_logos/viber.png" alt="Viber" />
               </a>
-              <a href="https://t.me/+380992340083" target="_blank">
+              <a
+                href="https://t.me/+380992340083"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src="/img/messenger_logos/telegram.png" alt="Telegram" />
               </a>
               <a href="https://wa.me/+380992340083">
@@ -43,7 +54,13 @@ export default function Management() {
           </div>
           <div className="manager-card-text">
             <h3>{t("management.name-second")}</h3>
-            <p>{t("management.position")}</p>
+            <p className="manager-card-text-position">
+              {t("management.position")}
+            </p>
+            <p>
+              {t("management.phone")}
+              <a href="tel:+380679308951">+380679308951</a>
+            </p>
           </div>
           <div className="contact-container mar-24">
             <span className="messenger-logos">
@@ -53,7 +70,11 @@ export default function Management() {
               <a href="viber://chat?number=0679308951">
                 <img src="/img/messenger_logos/viber.png" alt="Viber" />
               </a>
-              <a href="https://t.me/+380679308951" target="_blank">
+              <a
+                href="https://t.me/+380679308951"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src="/img/messenger_logos/telegram.png" alt="Telegram" />
               </a>
               <a href="https://wa.me/+380679308951">

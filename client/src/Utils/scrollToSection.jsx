@@ -5,7 +5,7 @@ export const scrollToSection = (sectionId, offset = 64) => {
       element.getBoundingClientRect().top + window.scrollY - offset;
     window.scrollTo({
       top: elementPosition,
-      behavior: "smooth",
+      behavior: "smooth"
     });
   } else {
     console.error(`Element with id ${sectionId} not found.`);

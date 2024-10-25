@@ -1,0 +1,10 @@
+@apiURL = http://localhost:3001/api
+
+### Завантаження файлу в теку uploads (тест не працює)
+
+POST {{apiURL}}/upload
+Content-Type: multipart/form-data
+
+{
+  "file": "../../uploads/1_2024-10-13_17-00-00.jpg"
+}

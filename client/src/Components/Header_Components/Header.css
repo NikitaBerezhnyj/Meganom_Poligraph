@@ -1,201 +1,203 @@
-@import url('../Colors.css');
+@import url("../Colors.css");
 
 .navbar {
-    position: fixed !important;
+  position: fixed !important;
 }
 
 .header {
-    position: fixed !important;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: var(--main-color);
-    z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--main-color);
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand {
-    cursor: pointer;
-    width: 20%;
-    display: flex;
-    justify-content: left;
-    align-items: center;
+  cursor: pointer;
+  width: 20%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 
 .navbar-brand span {
-    left: 0;
-    color: var(--accent-color);
-    font-weight: bold;
-    font-size: 1em
+  left: 0;
+  color: var(--accent-color);
+  font-weight: bold;
+  font-size: 1em;
 }
 
 .navbar-brand img {
-    width: 36px;
-    height: 36px;
-    margin-right: 10px;
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
 }
 
 .nav-collapse {
-    max-width: 75%;
-    flex-grow: 1;
-    justify-content: flex-end;
+  max-width: 75%;
+  flex-grow: 1;
+  justify-content: flex-end;
 }
 
 .nav-btn {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav-item {
-    margin: 0;
-    color: var(--main-color);
-    transition: all 0.5s ease;
+  margin: 0;
+  color: var(--main-color);
+  transition: all 0.5s ease;
 }
 
 .nav-item:hover {
-    color: var(--text-color);
+  color: var(--text-color);
 }
 
 .nav-item.active {
-    font-weight: bolder;
-    color: var(--accent-color) !important;
-    text-decoration: underline;
-    transition: all 0.5s ease;
+  font-weight: bolder;
+  color: var(--accent-color) !important;
+  text-decoration: underline;
+  transition: all 0.5s ease;
 }
 
 .nav-link {
-    margin-left: 5px;
-    margin-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .change-lang-div {
-    width: fit-content;
-    position: relative;
-    display: inline-block;
-    /* margin-left: -2.5px; */
+  width: fit-content;
+  position: relative;
+  display: inline-block;
+  /* margin-left: -2.5px; */
 }
 
 .change-lang-div select {
-    text-align: center;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    cursor: pointer;
-    padding: 5px 10px;
-    border: 1px solid var(--accent-color);
-    background-color: transparent;
-    color: var(--accent-color);
-    /* border-radius: 20px; */
-    border-radius: 10px;
-    transition: all 0.3s ease;
+  text-align: center;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid var(--accent-color);
+  background-color: transparent;
+  color: var(--accent-color);
+  /* border-radius: 20px; */
+  border-radius: 10px;
+  transition: all 0.3s ease;
 }
 
 .change-lang-div select:hover {
-    color: var(--main-color);
-    background-color: var(--accent-color);
+  color: var(--main-color);
+  background-color: var(--accent-color);
 }
 
 .change-lang-div select:focus {
-    outline: none;
-    border-color: var(--accent-color);
+  outline: none;
+  border-color: var(--accent-color);
 }
 
 .change-lang-div select:after {
-    content: '▼';
-    font-size: 0.8em;
-    margin-left: 8px;
+  content: "▼";
+  font-size: 0.8em;
+  margin-left: 8px;
 }
 
 .change-lang-div select option {
-    background-color: var(--main-color);
-    color: var(--text-color);
+  background-color: var(--main-color);
+  color: var(--text-color);
 }
 
 .theme-toggle-button {
-    margin-left: 8px;
-    width: 100px;
-    height: 40px;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--theme-toggle-button-color);
-    border: none;
-    outline: none;
-    position: relative;
-    overflow: hidden;
+  margin-left: 8px;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--theme-toggle-button-color);
+  border: none;
+  outline: none;
+  position: relative;
+  overflow: hidden;
 }
 
 .theme-toggle-button img {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    transition: opacity 0.4s ease, transform 0.4s ease;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
 }
 
 .theme-toggle-button img.slide-out {
-    animation: slideOut 0.4s forwards;
+  animation: slideOut 0.4s forwards;
 }
 
 .theme-toggle-button img.slide-in {
-    animation: slideIn 0.4s forwards;
+  animation: slideIn 0.4s forwards;
 }
 
 @keyframes slideOut {
-    from {
-        transform: translateX(0);
-        opacity: 1;
-    }
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
 
-    to {
-        transform: translateX(100%);
-        opacity: 0;
-    }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
 }
 
 @keyframes slideIn {
-    from {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
 
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-    .nav-link {
-        margin: 0;
-    }
+  .nav-link {
+    margin: 0;
+  }
 
-    .change-lang-div {
-        margin-left: 0;
-        padding-left: 0;
-    }
+  .change-lang-div {
+    margin-left: 0;
+    padding-left: 0;
+  }
 
-    .theme-toggle-button {
-        margin-top: 8px;
-        margin-left: 0;
-        padding-left: 0;
-    }
+  .theme-toggle-button {
+    margin-top: 8px;
+    margin-left: 0;
+    padding-left: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .nav-collapse {
-        margin-top: 10px;
-    }
+  .nav-collapse {
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .navbar-brand span {
-        font-size: 0.75em;
-    }
+  .navbar-brand span {
+    font-size: 0.75em;
+  }
 
-    .navbar-brand img {
-        width: 24px;
-        height: 24px;
-        margin-right: 6px;
-    }
+  .navbar-brand img {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+  }
 }

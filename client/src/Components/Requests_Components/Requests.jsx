@@ -15,7 +15,7 @@ export default function Requests() {
     name: "",
     phone: "",
     mail: "",
-    message: "",
+    message: ""
   });
   const [showMailSuccess, setShowMailSuccess] = useState(false);
   const [showMailError, setShowMailError] = useState(false);
@@ -61,7 +61,7 @@ export default function Requests() {
       name: nameInput,
       phone: phoneInput,
       mail: mailInput,
-      message: messageInput,
+      message: messageInput
     };
 
     setShowMailError(false);
@@ -95,12 +95,12 @@ export default function Requests() {
     }
   };
 
-  const validatePhone = (phone) => {
+  const validatePhone = phone => {
     const phoneRegex = /^\+?3?8?(0\d{9})$/;
     return phoneRegex.test(phone);
   };
 
-  const validateEmail = (email) => {
+  const validateEmail = email => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
   };

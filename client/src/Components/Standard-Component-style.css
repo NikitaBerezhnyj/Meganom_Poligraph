@@ -1,71 +1,71 @@
-@import url('./Colors.css');
+@import url("./Colors.css");
 
 h1 {
-    font-size: 3.5em;
-    line-height: 1.5em;
+  font-size: 3.5em;
+  line-height: 1.5em;
 }
 
 h3 {
-    font-size: 1.5em;
-    line-height: 1em;
+  font-size: 1.5em;
+  line-height: 1em;
 }
 
 p {
-    color: var(--text-color);
-    font-size: 1em;
-    line-height: 1.5em;
+  color: var(--text-color);
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 a {
-    text-decoration: none;
-    color: var(--accent-color);
+  text-decoration: none;
+  color: var(--accent-color);
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .accent {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .fixed {
-    position: fixed;
+  position: fixed;
 }
 
 .mar-auto {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .mar-8 {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .mar-16 {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .mar-24 {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .mar-36 {
-    margin-bottom: 36px;
+  margin-bottom: 36px;
 }
 
 .mar-48 {
-    padding-top: 48px;
-    padding-bottom: 48px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .mar-72 {
-    margin-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .mar-96 {
-    margin-bottom: 96px;
+  margin-bottom: 96px;
 }
 
 .fluid-height {
-    height: 100vh;
+  height: 100vh;
 }

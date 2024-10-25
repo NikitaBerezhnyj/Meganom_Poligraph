@@ -1,0 +1,13 @@
+@apiURL = http://localhost:3001/api
+
+### Реєстрація
+
+POST {{apiURL}}/send-mail
+Content-Type: application/json
+
+{
+    "name": "Нікіта",
+    "phone": "380664122316",
+    "mail": "kitnikita06@gmail.com",
+    "message": "Test"
+}

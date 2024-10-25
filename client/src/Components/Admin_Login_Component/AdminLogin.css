@@ -1,0 +1,101 @@
+@import url("../Colors.css");
+
+.admin-login-container {
+    width: 100svw;
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.admin-login-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+    max-height: 600px;
+    width: 90%;
+    height: 100%;
+    padding: 24px;
+    margin: auto;
+    background-color: var(--second-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 1px solid var(--accent-color);
+}
+
+.admin-login-wrap h1 {
+    font-size: 2.5rem;
+}
+
+.admin-login-input-container input {
+    width: 100%;
+    padding: 4px 8px;
+    margin-bottom: 16px;
+}
+
+.admin-login-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+
+.admin-login-header label {
+    margin-right: 4px;
+}
+
+.password-input-container {
+    position: relative;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.password-input-container input {
+    margin-bottom: 0 !important;
+    width: 100%;
+    padding-right: 40px;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.password-input-container button {
+    color: var(--text-color);
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-60%) scale(1);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    font-size: 24px;
+    line-height: 1;
+    transition: transform .5s ease;
+    transform-origin: center;
+}
+
+.password-input-container button:hover {
+    transform: translateY(-60%) scale(1.05);
+}
+
+.admin-login-button {
+    width: 100%;
+    margin-top: 16px;
+    color: var(--main-color);
+    background-color: var(--accent-color);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.admin-login-button:hover {
+    transform: scale(1.1);
+}

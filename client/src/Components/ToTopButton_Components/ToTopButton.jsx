@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect, useState } from "react";
 import { scrollToSection } from "../../Utils/scrollToSection";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -26,7 +27,7 @@ const ToTopButton = () => {
     <div className={`to-top-button-container ${isVisible ? "show" : ""}`}>
       <button
         className="scroll-btn to-top-button"
-        onClick={(e) => {
+        onClick={e => {
           e.preventDefault();
           scrollToSection("hero", 64);
         }}

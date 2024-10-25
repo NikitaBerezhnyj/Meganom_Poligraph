@@ -1,3 +1,4 @@
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
@@ -17,7 +18,7 @@ export default function Services() {
     setShowModal(true);
   };
 
-  const handleCloseModal = (event) => {
+  const handleCloseModal = event => {
     if (
       event.target.tagName !== "IMG" &&
       event.target.tagName !== "PRE" &&

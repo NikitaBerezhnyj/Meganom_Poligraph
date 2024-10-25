@@ -1,0 +1,10 @@
+@apiURL = http://localhost:3001/api
+
+### Переклад тексту
+
+POST {{apiURL}}/translate
+Content-Type: application/json
+
+{
+  "text": "Перевірочний текст"
+}
